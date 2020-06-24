@@ -1,2 +1,2 @@
 # Cherish
-Dating feature login/register mainly focussed on frontend development
+Register/login feature for a dating application, mainly focussed on frontend development
