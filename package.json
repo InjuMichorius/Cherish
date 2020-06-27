@@ -1,0 +1,20 @@
+{
+  "name": "cherish",
+  "version": "1.0.0",
+  "description": "Register/login feature mainly focused on Frontend development",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InjuMichorius/Cherish.git"
+  },
+  "author": "inju@inju.nl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/InjuMichorius/Cherish/issues"
+  },
+  "homepage": "https://github.com/InjuMichorius/Cherish#readme"
+}
