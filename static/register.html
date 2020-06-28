@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="../static/images/heart.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="../static/images/heart.png" type="image/x-icon">
     <title>Cherish | Register</title>
 </head>
 
@@ -16,7 +16,7 @@
                 <div class="line2"></div>
                 <div class="line3"></div>
             </div>
-            <img src="../static/images/logo.jpg" alt="Logo of Cherish" class="logo">
+            <img src="../static/images/logo.png" alt="Logo of Cherish" class="logo">
             <ul class="list">
                 <li><a href="">Home</a></li>
                 <li><a href="">About</a></li>
@@ -27,30 +27,46 @@
     </header>
     <main>
         <h1>Register</h1>
-        <form action="">
-            <label for="">Username
-                <input type="text">
-            </label>
-            <label for="">E-mail
-                <input type="email">
-            </label>
-            <label for="">password
-                <input type="password">
-            </label>
-            <label for="age">age
-                <input type="number" name="age">
-            </label>
+            <div class="invoer-veld">
+                <input type="text" name="username" maxlength="20" required>
+                <label for="username" class="label-name">
+                    <span class="content-name">username</span>
+                </label>
+            </div>
+
+            <div class="invoer-veld">
+                <input type="email" name="email" required>
+                <label for="email" class="label-name">
+                    <span class="content-name">E-mail</span>
+                </label>
+            </div>
+
+
+            <div class="invoer-veld">
+                <input type="password" name="password" required>
+                <label for="password" class="label-name">
+                    <span class="content-name">Password</span>
+                </label>
+            </div>
+
+            <div class="invoer-veld">
+                <input type="number" name="age" required>
+                <label for="age" class="label-name">
+                    <span class="content-name">Age</span>
+                </label>
+            </div>
+
             <label for="gender">Gender
-                <select name="gender">
+                <select name="gender" required>
                     <option value="male">Male</option>
                     <option value="female">Female</option>
                     <option value="secret">Secret</option>
                 </select>
             </label>
-            <input type="submit">
-        </form>
+            <input type="submit" value="Register!">
+            <span>Already have an account? </span><a href="index.html" class="intern">login</a>
     </main>
-    <script src="../statc/script.js"></script>
+    <script src="../static/script.js"></script>
 </body>
 
 </html>
