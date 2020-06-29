@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./images/heart.png" type="image/x-icon">
-    <title>Cherish | Register</title>
+    <title>Cherish | Home</title>
 </head>
 
 <body>
@@ -16,7 +16,7 @@
                 <div class="line2"></div>
                 <div class="line3"></div>
             </div>
-            <img src="./images/logo.png" alt="Logo of Cherish" class="logo">
+            <img src="../images/logo.png" alt="Logo of Cherish" class="logo">
             <ul class="list">
                 <li><a href="">Home</a></li>
                 <li><a href="">About</a></li>
@@ -26,14 +26,12 @@
         </nav>
     </header>
     <main>
-        <h1>Register</h1>
-            <div class="invoer-veld">
-                <input type="text" name="username" maxlength="20" required>
-                <label for="username" class="label-name">
-                    <span class="content-name">username</span>
-                </label>
-            </div>
-
+        <h1>Let's find a match!</h1>
+        <p>Dating is a stage of romantic relationships in humans whereby two people meet socially with the aim of each
+            assessing the other's suitability as a prospective partner in an intimate relationship. It is a form of
+            courtship, consisting of social activities done by the couple, either alone or with others.</p>
+        <h2>Login</h2>
+        <form action="">
             <div class="invoer-veld">
                 <input type="email" name="email" required>
                 <label for="email" class="label-name">
@@ -48,25 +46,11 @@
                     <span class="content-name">Password</span>
                 </label>
             </div>
-
-            <div class="invoer-veld">
-                <input type="number" name="age" required>
-                <label for="age" class="label-name">
-                    <span class="content-name">Age</span>
-                </label>
-            </div>
-
-            <label for="gender">Gender
-                <select name="gender" required>
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                    <option value="secret">Secret</option>
-                </select>
-            </label>
-            <input type="submit" value="Register!">
-            <span>Already have an account? </span><a href="index.html" class="intern">login</a>
+            <input type="submit">
+            <span>Don't have an account? </span><a href="register.html" class="intern">register</a>
+        </form>
     </main>
-    <script src="./script.js"></script>
+    <script src="../static/script.js"></script>
 </body>
 
 </html>
