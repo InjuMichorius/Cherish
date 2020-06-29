@@ -1,0 +1,8 @@
+{
+    "name": "Cherish",
+    "Description": "Dating feature",
+    "repository": "https://github.com/InjuMichorius/Cherish.git",
+    "logo": "http://node-js-sample.herokuapp.com/node.svg",
+    "keywords": ["node", "express", "static"],
+    "image": "heroku/nodejs"
+}
