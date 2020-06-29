@@ -8,6 +8,29 @@
 :root{
     --primairy: #E00359;
     --secondairy: #FA5A87;
+
+    /*menuVariables*/
+    --menuButtonDisplay: none;
+    --lineDisplay: none;
+}
+
+.nav-list {
+    display: block;
+    width: 100%;
+    height: 7rem;
+    text-align: center;
+    position: fixed;
+    background-color: var(--primairy);
+    transform: translateX(-100%);
+    z-index: 100;
+}
+
+.line1, .line2, .line3 {
+    display: var(--lineDisplay);
+    background-color: white;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
 }
 
 img.logo{
@@ -120,6 +143,14 @@ p{
 
 .invoer-veld input:focus + .label-name::after, .invoer-veld input:valid + .label-name::after{
     transform: translateX(0%);
+}
+
+.hamburger{
+    display: var(--menuButtonDisplay);
+    position: fixed;
+    cursor: pointer;
+    top: 0.8rem;
+    left: 0.8rem;
 }
 
 @media screen and (min-width: 1000px) {
